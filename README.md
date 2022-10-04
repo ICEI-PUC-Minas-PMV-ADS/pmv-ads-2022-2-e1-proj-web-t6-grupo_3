@@ -1,27 +1,24 @@
 # TÍTULO DO PROJETO
 
-`CURSO`
+`Análise e Desenvolvimento de Sistemas`
 
-`DISCIPLINA`
+`Desenvolvimento de Aplicação Web Front-End`
 
-`SEMESTRE`
+`02/2022`
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Alexsander Felipe de Aquino Goulart
+* Fernando de Araújo Abreu
+* Florisvaldo Alves Moreira Neto
+* Matheus Silva Leão
+* Victor Kingma
 
 ## Orientador
 
-* Nome completo do professor 1
-
-## Instruções de utilização
-
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+* Nathalia Assis Valentim
 
 # Documentação
 
@@ -38,10 +35,6 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 <li><a href="docs/10-Apresentação do Projeto.md"> Apresentação do Projeto</a></li>
 <li><a href="docs/11-Referências.md"> Referências</a></li>
 </ol>
-
-# Hospedagem
-
-* Insira o endereço eletrônico público de acesso ao conteúdo publicado. 
 
 # Armazenamento do Código-Fonte
 

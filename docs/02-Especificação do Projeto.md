@@ -14,7 +14,7 @@ As personas levantadas durante o processo de entendimento do problema são apres
 
 A partir da compreensão do dia a dia das personas identificadas para o projeto, foram registradas as seguintes histórias de usuários.
 
-|EU COMO...<br>`PERSONA`|... QUERO/DESEJO ...<br>`O QUE`|... PARA ...<br>`POR QUE`|
+|EU COMO ...<br>`PERSONA`|... QUERO/DESEJO ...<br>`O QUE`|... PARA ...<br>`POR QUE`|
 |-|-|-|
 |Isabella Diniz Baeta|encontrar facilmente locais que me despertam interesse|sair com minha família e amigos|
 |Bernardo Duarte Diniz|Conhecer bares, restaurantes e eventos gratrônomicos|passar tempo com meus amigos|

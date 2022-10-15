@@ -1,13 +1,5 @@
 /** Geral **/
 
-/* Cabeçalho */
-header {
-    background-color: #191F28;
-    position: relative;
-    max-width: 100%;
-    height: 50px;
-}
-
 /* Padrão */
 body {
     position: relative;
@@ -17,6 +9,8 @@ body {
     line-height: 1.5;
     text-align: justify;
     margin: 0px;
+    padding: 0px;
+    width: 100%;
     top: -12px;
 }
 
@@ -43,22 +37,27 @@ h4 {
     font-size: 13px;
 }
 
-p {
-    margin-left: 12px;
-}
-
 a {
     color: #0097FF;
     text-decoration: none;
 }
 
+/* Cabeçalho */
+header {
+    background-color: #191F28;
+    position: relative;
+    max-width: 100%;
+    height: 50px;
+}
+
+/* Menu */
 nav li {
     display: block;
     float: right;
     text-align: center;
 }
 
-li #menu {
+#menu {
     color: #FFF;
     display: block;
     padding: 16px;
@@ -66,18 +65,24 @@ li #menu {
     border-radius: 30px;
 }
 
-li #menu:hover {
+#menu:hover {
     background-color: #0097FF;
 }
 
-
 /** Eventos **/
-
-div.imagemEvento {
+/* Imagem */
+.imagemEvento {
+    background-image: url("https:source.unsplash.com/random");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     text-align: center;
 }
 
-div.imagemEvento img {
+.imagemEvento img {
     max-width: 100%;
-    border-radius: 12px;
+    border-radius: 30px;
+    vertical-align: bottom;
 }
+
+/* Texto */

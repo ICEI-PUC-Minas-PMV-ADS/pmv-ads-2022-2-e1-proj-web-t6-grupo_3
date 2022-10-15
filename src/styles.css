@@ -1,9 +1,24 @@
+/* Eventos */
+
+div.imagemEvento {
+    text-align: center;
+}
+
+div.imagemEvento img {
+    max-width: 100%;
+    border-radius: 12px;
+}
+
 /* Geral */
 
 body {
+    position: relative;
     color: #191F28;
     font-family: "Open Sans", sans-serif;
     font-size: 12px;
+    text-align: justify;
+    margin: 0px;
+    padding: 0px;
 }
 
 h1 {
@@ -25,3 +40,19 @@ h4 {
 }
 
 p {}
+
+a {
+    color: #0097FF;
+    text-decoration: none;
+}
+
+nav li {
+    display: inline;
+    float: right;
+    margin: 2px;
+    padding: 2px;
+}
+
+* {
+    scroll-behavior: smooth;
+}

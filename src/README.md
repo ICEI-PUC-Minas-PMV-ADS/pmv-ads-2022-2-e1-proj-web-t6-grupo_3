@@ -8,7 +8,6 @@ O site em HTML/CSS/JS é um projeto estático, logo pode ser utilizado tanto em 
 
 ### [0.1.0] - 14/10/2022
 #### Adicionado
-- Adicionado rftm.html
+- Adicionado eventoRftm.html
 - Adicionado styles.css
 - Adicionado rftm.png
-- Renomeado rftm.html para evento_rftm.html

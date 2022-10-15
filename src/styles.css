@@ -1,19 +1,22 @@
+/* Geral */
+
 body {
-    color: #191f28;
-    font-size: 12px;
+    color: #191F28;
     font-family: "Open Sans", sans-serif;
+    font-size: 12px;
 }
 
 h1 {
     font-size: 24px;
+    margin: 8px 0px 16px;
 }
 
 h2 {
     font-size: 20px;
-
+    margin: 0px 0px 24px;
 }
 
-h3{
+h3 {
     font-size: 14px;
 }
 
@@ -21,31 +24,6 @@ h4 {
     font-size: 13px;
 }
 
-.menu {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #FFF;
-    float: right;
+p {
+    
 }
-  
-li a {
-    display: block;
-    color: #78777A;
-    text-align: center;
-    padding: 16px;
-    text-decoration: none;
-}
- 
-li a:hover {
-    color: #FFF;
-    background-color: #0097ff;
-    border-radius: 50px;
-}
-
-.link{
-    color: #0097ff;
-    text-decoration: none;
-}
-

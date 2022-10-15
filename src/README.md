@@ -11,3 +11,4 @@ O site em HTML/CSS/JS é um projeto estático, logo pode ser utilizado tanto em 
 - Adicionado rftm.html
 - Adicionado styles.css
 - Adicionado rftm.png
+- Renomeado rftm.html para evento_rftm.html

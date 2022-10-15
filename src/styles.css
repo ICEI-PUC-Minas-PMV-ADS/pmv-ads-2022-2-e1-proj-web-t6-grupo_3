@@ -1,24 +1,28 @@
-/* Eventos */
+/** Geral **/
 
-div.imagemEvento {
-    text-align: center;
-}
-
-div.imagemEvento img {
+/* Cabeçalho */
+header {
+    background-color: #191F28;
+    position: relative;
     max-width: 100%;
-    border-radius: 12px;
+    height: 50px;
 }
 
-/* Geral */
-
+/* Padrão */
 body {
     position: relative;
     color: #191F28;
     font-family: "Open Sans", sans-serif;
     font-size: 12px;
+    line-height: 1.5;
     text-align: justify;
     margin: 0px;
-    padding: 0px;
+    top: -12px;
+}
+
+* {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
 }
 
 h1 {
@@ -40,7 +44,7 @@ h4 {
 }
 
 p {
-    
+    margin-left: 12px;
 }
 
 a {
@@ -49,12 +53,31 @@ a {
 }
 
 nav li {
-    display: inline;
+    display: block;
     float: right;
-    margin: 2px;
-    padding: 2px;
+    text-align: center;
 }
 
-* {
-    scroll-behavior: smooth;
+li #menu {
+    color: #FFF;
+    display: block;
+    padding: 16px;
+    transition: 0.4s;
+    border-radius: 30px;
+}
+
+li #menu:hover {
+    background-color: #0097FF;
+}
+
+
+/** Eventos **/
+
+div.imagemEvento {
+    text-align: center;
+}
+
+div.imagemEvento img {
+    max-width: 100%;
+    border-radius: 12px;
 }

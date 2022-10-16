@@ -90,4 +90,50 @@ nav li {
 }
 
 
-/*teste*/
+/* =============================================== MENU INICIAL ========================================== */
+
+/* Importa Fonte */
+
+@font-face {
+    font-family: Visby;
+    src: url(/src/fonts/Visby.ttf);
+}
+
+/* Menu */
+
+.logo{
+    width: 50px;
+    height: 50px;
+    padding-left: 10px;
+    margin: 10px;
+}
+
+.menu{
+    padding-right: 30px;
+    float: right;
+}
+
+header li{
+    text-decoration: none;
+    padding-top: 15px;
+    align-items: center;
+    font-family: Visby;
+    text-align: center;
+    margin: 10px;
+    display: inline-block;
+    font-size: 16px;
+    color: #78777A;
+}
+
+.item_menu:hover{
+    color: #0097FF;
+}
+
+.item_select{
+
+    color: #FFFF;
+    width:121px;
+    height: 39px;
+    background-color: #0097FF;
+    border-radius: 40px;
+}

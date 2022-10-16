@@ -1,24 +1,22 @@
-/* Eventos */
+/** Geral **/
 
-div.imagemEvento {
-    text-align: center;
-}
-
-div.imagemEvento img {
-    max-width: 100%;
-    border-radius: 12px;
-}
-
-/* Geral */
-
+/* Padrão */
 body {
     position: relative;
     color: #191F28;
     font-family: "Open Sans", sans-serif;
     font-size: 12px;
+    line-height: 1.5;
     text-align: justify;
     margin: 0px;
     padding: 0px;
+    width: 100%;
+    top: -12px;
+}
+
+* {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
 }
 
 h1 {
@@ -39,68 +37,54 @@ h4 {
     font-size: 13px;
 }
 
-
+p {
+    
+}
 
 a {
     color: #0097FF;
     text-decoration: none;
 }
 
-nav li {
-    display: inline;
-    float: right;
-    margin: 2px;
-    padding: 2px;
-}
-
-* {
-    scroll-behavior: smooth;
-}
-
-/* =============================================== MENU INICIAL ========================================== */
-
-/* Importa Fonte */
-
-@font-face {
-    font-family: Visby;
-    src: url(/src/fonts/Visby.ttf);
+/* Cabeçalho */
+header {
+    background-color: #191F28;
+    position: relative;
+    max-width: 100%;
+    height: 50px;
 }
 
 /* Menu */
-
-.logo{
-    width: 50px;
-    height: 50px;
-    padding-left: 10px;
-    margin: 10px;
-}
-
-.menu{
-    padding-right: 30px;
+nav li {
+    display: block;
     float: right;
-}
-
-header li{
-    text-decoration: none;
-    padding-top: 15px;
-    align-items: center;
-    font-family: Visby;
     text-align: center;
-    margin: 10px;
-    display: inline-block;
-    font-size: 16px;
-    color: #78777A;
 }
 
-.item_menu:hover{
-    color: #0097FF;
+#menu {
+    color: #FFF;
+    display: block;
+    padding: 16px;
+    transition: 0.4s;
+    border-radius: 30px;
 }
 
-.item_select{
-    
-    color: #FFFF;
-    width:121px;
-    height: 39px;
+#menu:hover {
     background-color: #0097FF;
-    border-radius: 40px;
+}
+
+/** Eventos **/
+/* Imagem */
+.imagemEvento {
+    background-image: url("https:source.unsplash.com/random");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.imagemEvento img {
+    max-width: 100%;
+    border-radius: 30px;
+    vertical-align: bottom;
 }

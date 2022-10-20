@@ -64,7 +64,7 @@
 	.fav:hover{
 		-webkit-transform: scale(1.005);
     	transform: scale(1.01);
-		box-shadow: 2px 2px 5px  #808080;
+		box-shadow: 0 0 20px #808080;
 	}
 
 	/*Formatação dos Blocos*/
@@ -74,7 +74,7 @@
 		height: 250px;
 		border-radius:20px;
 		background-color: #d9d9d9;
-		transition: 1s;
+		transition: .3s;
 	}
 
 

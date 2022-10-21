@@ -81,6 +81,7 @@ menu ul li:hover {
     max-width: 80%;
     border-radius: 30px;
     margin: 0 10%;
+    vertical-align: bottom;
 }
 
 main a {

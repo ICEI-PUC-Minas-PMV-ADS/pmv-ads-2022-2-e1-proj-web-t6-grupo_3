@@ -1,36 +1,48 @@
 	/*Formatação do menu*/
-	nav#menu{
+	body {
+		position: relative;
+		font-family: "Open Sans", sans-serif;
+		font-size: 12px;
+		line-height: 1.5;
+		text-align: justify;
+		margin: 0px;
+		padding: 0px 0px 0px 0px;
+		width: 100%;
+		top: -12px;
+	}
+
+	a {
+		color: #0097FF;
+		text-decoration: none;
+	}
+
+	* {
+		padding: 0px;
+	}
+	
+	header {
+		position: relative;
+		max-width: 100%;
+		height: 50px;
+	}
+
+	nav li{
 		display: block;
+		float: right;
+		text-align: center;
 	}
 
-	nav#menu ul{
-    	list-style-type: none;
-    	margin: 0;
-    	padding: 0;
-    	overflow: hidden;
-    	background-color: #FFF;
-    	font-family: century gothic;
-    	font-size: 15px;
+	#menu{
+		display: block;
+		padding: 16px;
+		transition: .1s;
+		border-radius: 20px;
+		color: #000;
 	}
- 	nav#menu li{
-    	float: right;
-	} 
-	nav#menu a{
-    	display: block;
-    	color: #78777A;
-    	text-align: center;
-    	padding: 10px 14px 10px 14px;
-    	text-decoration: none;
 
-	} 
-	nav#menu a:hover {
-    	color: #FFF;
-    	background-color: #0097FF;
-    	border-radius: 20px;
-    	transition: .1s;
-	}
-	nav#menu h1{
-		display: none;
+	#menu:hover{
+		background-color: #0097ff;
+		color: #fff;
 	}
 
 
@@ -66,6 +78,7 @@
     	transform: scale(1.01);
 		box-shadow: 0 0 20px #808080;
 	}
+	
 
 	/*Formatação dos Blocos*/
 	.fav{

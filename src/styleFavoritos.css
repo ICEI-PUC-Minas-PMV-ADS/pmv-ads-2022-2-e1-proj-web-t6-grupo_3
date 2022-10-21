@@ -19,20 +19,20 @@
 	* {
 		padding: 0px;
 	}
-	
+
 	header {
 		position: relative;
 		max-width: 100%;
 		height: 50px;
 	}
 
-	nav li{
+	nav li {
 		display: block;
 		float: right;
 		text-align: center;
 	}
 
-	#menu{
+	#menu {
 		display: block;
 		padding: 16px;
 		transition: .1s;
@@ -40,30 +40,31 @@
 		color: #000;
 	}
 
-	#menu:hover{
+	#menu:hover {
 		background-color: #0097ff;
 		color: #fff;
 	}
 
 
 	/*Formatação imagens dos shows*/
-	.shows{
-        width: 100%;
-        height: 134px;
+	.shows {
+		width: 100%;
+		height: 134px;
 		opacity: 1;
 		border-radius: 20px 20px 0px 0px;
 	}
 
 
 	/*Formatação do texto dos favoritos*/
-	h2{
+	h2 {
 		text-align: justify;
 		width: 100%;
 		margin: 7px 0px 0px 20px;
 		font-size: 20px;
 		font-family: sans-serif;
 	}
-	p{
+
+	p {
 		text-align: justify;
 		width: 100%;
 		margin: 15px 0px 0px 20px;
@@ -73,19 +74,19 @@
 
 
 	/*Formatação Hover*/
-	.fav:hover{
+	.fav:hover {
 		-webkit-transform: scale(1.005);
-    	transform: scale(1.01);
+		transform: scale(1.01);
 		box-shadow: 0 0 20px #808080;
 	}
 
 
 	/*Formatação dos Blocos*/
-	.fav{
+	.fav {
 		position: absolute;
 		width: 250px;
 		height: 250px;
-		border-radius:20px;
+		border-radius: 20px;
 		background-color: #d9d9d9;
 		transition: .3s;
 		padding-bottom: 7px;
@@ -93,42 +94,42 @@
 
 
 	/*Posicionamento dos favoritos*/
-	div#fav1{
+	div#fav1 {
 		top: 90px;
 		left: 50px;
 	}
-	
-	div#fav2{
+
+	div#fav2 {
 		top: 90px;
 		left: 370px;
 	}
-	
-	div#fav3{
+
+	div#fav3 {
 		top: 90px;
 		left: 690px;
 	}
 
-	div#fav4{
+	div#fav4 {
 		top: 90px;
 		left: 1010px;
 	}
 
-	div#fav5{
+	div#fav5 {
 		top: 370px;
 		left: 50px;
 	}
 
-	div#fav6{
+	div#fav6 {
 		top: 370px;
 		left: 370px;
 	}
 
-	div#fav7{
+	div#fav7 {
 		top: 370px;
 		left: 690px;
 	}
 
-	div#fav8{
+	div#fav8 {
 		top: 370px;
 		left: 1010px;
 	}

@@ -64,15 +64,23 @@ menu ul li:hover {
 }
 
 /* MAIN */
-main {
+/* main {
     background: lightgray;
     width: 80%;
     margin: 0% 10%;
+} */
+
+.imagemEvento{
+    background-image: url("https:source.unsplash.com/random");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #imagemEvento{
-    max-width: 100%;
+    max-width: 80%;
     border-radius: 30px;
+    margin: 0 10%;
 }
 
 main a {

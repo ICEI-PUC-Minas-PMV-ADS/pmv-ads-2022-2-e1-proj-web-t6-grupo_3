@@ -98,6 +98,15 @@ p {
 		display: block;
 	}
 
+	nav li{
+		display: flex;
+		float: none;
+	}
+
+	#menu{
+		display: flex;
+	}
+
 	div {
 		margin: 0px 25px 25px 15px;
 	}

@@ -79,6 +79,7 @@ menu ul li:hover {
     height: 100%;
     position: absolute;
     z-index: -1;
+    opacity: .6;
 }
 
 #imagemEvento{

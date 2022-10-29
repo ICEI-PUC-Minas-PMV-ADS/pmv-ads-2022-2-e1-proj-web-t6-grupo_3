@@ -37,16 +37,8 @@ a {
 /* CABECALHO */
 header {
     display: flex;
-    background: lightgreen;
+    background: #191F28;
     justify-content: space-between;
-}
-
-nav {
-    background: lightcoral;
-}
-
-menu {
-    background: lightyellow;
 }
 
 menu ul li {
@@ -78,21 +70,21 @@ menu ul li:hover {
 
 /* IMAGEM */
 .imagemFundo{
-    background-image: url("https:source.unsplash.com/random/1920x800");
+    background-image: url("img/eventoRftm.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     filter: blur(8px);
     width: 100%;
-    height: 90%;
+    height: 100%;
     position: absolute;
     z-index: -1;
 }
 
 #imagemEvento{
-    max-width: 80%;
+    max-width: 70%;
     border-radius: 30px 30px 0px 0px;
-    margin: 0 10%;
+    margin: 0 15%;
     vertical-align: bottom;
 }
 
@@ -103,23 +95,22 @@ main a {
 /* TEXTO */
 .tituloEvento{
     margin-top: 10px;
-    width: 80%;
-    margin: 0 10%;
-    background: lightgray;
+    width: 70%;
+    margin: 0 15%;
+    background: #F5F7F8;
 }
 
 .descricaoEvento{
     margin-top: 10px;
-    width: 80%;
-    margin: 0 10%;
-    background: lightgray;
+    width: 70%;
+    margin: 0 15%;
+    background: #F5F7F8;
 }
 
 
 /* RODAPE */
 footer {
-    background: lightblue;
-    position: fixed;
-    bottom: 0;
+    background: #4C576C;
     width: 100%;
+    text-align: center;
 }

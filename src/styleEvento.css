@@ -74,12 +74,12 @@ menu ul li:hover {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    filter: blur(8px);
+    filter: brightness(.2);
     width: 100%;
     height: 100%;
     position: absolute;
     z-index: -1;
-    opacity: .6;
+    opacity: .9;
 }
 
 #imagemEvento{

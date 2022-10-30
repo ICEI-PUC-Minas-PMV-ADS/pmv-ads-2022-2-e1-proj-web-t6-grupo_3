@@ -9,10 +9,10 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 
 |Ambiente|Plataforma|Link de Acesso|
 |-|-|-|
-|Repositório de Código Fonte|GitHub|<a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t6-grupo_3">GitHub|
-|Documentos do Projeto|OneDrive|<a href="https://sgapucminasbr-my.sharepoint.com/:f:/g/personal/1240910_sga_pucminas_br/EsJ1prDyw1hEovIHWUPI3agBZAltHo8TA16eT1vktokWtQ">Documentos do Projeto|
-|Projeto de Interface e Wireframes|Figma|<a href="https://www.figma.com/proto/kgK1Pwybvqa8zgG7ak3gpr/Desenvolvimento-de-Aplica%C3%A7%C3%A3o-Web-Front-End?node-id=1%3A2&scaling=min-zoom&page-id=0%3A1">Desenvolvimento de Aplicação Web Front-End|
-|Gerenciamento do Projeto|Trello|<a href="https://trello.com/b/lV84StEK/desenvolvimento-de-aplica%C3%A7%C3%A3o-web-front-end">Desenvolvimento de Aplicação Web Front-End|
+|Repositório de Código Fonte|GitHub|[GitHub](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t6-grupo_3)|
+|Documentos do Projeto|OneDrive|[Documentos do Projeto](https://sgapucminasbr-my.sharepoint.com/:f:/g/personal/1240910_sga_pucminas_br/EsJ1prDyw1hEovIHWUPI3agBZAltHo8TA16eT1vktokWtQ)|
+|Projeto de Interface e Wireframes|Figma|[Desenvolvimento de Aplicação Web Front-End](https://www.figma.com/proto/kgK1Pwybvqa8zgG7ak3gpr/Desenvolvimento-de-Aplica%C3%A7%C3%A3o-Web-Front-End?node-id=1%3A2&scaling=min-zoom&page-id=0%3A1)|
+|Gerenciamento do Projeto|Trello|[Desenvolvimento de Aplicação Web Front-End](https://trello.com/b/lV84StEK/desenvolvimento-de-aplica%C3%A7%C3%A3o-web-front-end)|
 
 ## Gerenciamento de Projeto
 

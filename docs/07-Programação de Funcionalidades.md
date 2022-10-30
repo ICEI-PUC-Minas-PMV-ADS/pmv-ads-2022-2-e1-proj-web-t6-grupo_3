@@ -25,7 +25,7 @@ A página “Evento” permite ao usuário visualizar e se informar sobre o even
 
 ### Requisitos atendidos
 
-- >RF-02
+- RF-02
 
 ### Artefatos da Funcionalidade
 

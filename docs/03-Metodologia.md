@@ -39,3 +39,5 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 - Sprint
 - Review
 - Done
+
+![Trello Scrum](img/trelloScrum.png)

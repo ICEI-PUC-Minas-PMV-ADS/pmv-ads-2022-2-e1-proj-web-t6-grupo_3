@@ -8,20 +8,16 @@ A página inicial do site apresenta eventos de destaque nos cards.
 
 ### Requisitos atendidos
 
-<ul>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-</ul>
+-
+-
+-
+-
 
 ### Artefatos da Funcionalidade
 
-<ul>
-<li>index.html</li>
-<li>style.css</li>
-<li>logo.vsg</li>
-</ul>
+- index.html
+- style.css
+- logo.vsg
 
 ## Eventos (RF-02, RF-06, RF-07 e RF-08)
 
@@ -29,17 +25,13 @@ A página “Evento” permite ao usuário visualizar e se informar sobre o even
 
 ### Requisitos atendidos
 
-<ul>
-<li>RF-02</li>
-</ul>
+- >RF-02
 
 ### Artefatos da Funcionalidade
 
-<ul>
-<li>evento.html</li>
-<li>styleEvento.css</li>
-<li>logo.vsg</li>
-</ul>
+- evento.html
+- styleEvento.css
+- logo.vsg
 
 ## Favoritos (RF-02, RF-03, RF-07 e RF-08)
 
@@ -47,20 +39,16 @@ A página “Favoritos” permite ao usuário visualizar e selecionar eventos ma
 
 ### Requisitos atendidos
 
-<ul>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-</ul>
+-
+-
+-
+-
 
 ### Artefatos da Funcionalidade
 
-<ul>
-<li>favoritos.html</li>
-<li>styleFavoritos.css</li>
-<li>logo.vsg</li>
-</ul>
+- favoritos.html
+- styleFavoritos.css
+- logo.vsg
 
 ## Sobre (RF-04 e RF-08)
 
@@ -68,15 +56,11 @@ A página “Sobre” permite ao usuário visualizar o propósito e informaçõe
 
 ### Requisitos atendidos
 
-<ul>
-<li></li>
-<li></li>
-</ul>
+-
+-
 
 ### Artefatos da Funcionalidade
 
-<ul>
-<li>sobre.html</li>
-<li>styleSobre.css</li>
-<li>logo.vsg</li>
-</ul>
+- sobre.html
+- styleSobre.css
+- logo.vsg

@@ -1,14 +1,16 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
-
 A definição exata do problema e os pontos mais relevantes a serem tratados neste projeto foi consolidada com a participação dos usuários em um trabalho de imersão feita pelos membros da equipe a partir de entrevistas com potenciais usuários. Os detalhes levantados nesse processo foram consolidados na forma de personas e histórias de usuários.
 
 ## Personas
 
 As personas levantadas durante o processo de entendimento do problema são apresentadas nas tabelas que se seguem.
 
-<IMAGEM>
+![persona1](img/persona1.png)
+![persona2](img/persona2.png)
+![persona3](img/persona3.png)
+![persona4](img/persona4.png)
+![persona5](img/persona5.png)
 
 ## Histórias de Usuários
 
@@ -36,10 +38,13 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 |ID| Descrição do Requisito|Prioridade|
 |-|-|-|
 |RF-01|O site deve apresentar os principais eventos, shows e festas regionais na página principal|Alta|
-|RF-02|O site deve ser capaz de filtrar os eventos, shows e festas conforme o interesse do usuário (cidades / tipos de público / tipos de eventos, shows e festas)|Alta|
-|RF-03|O site deve apresentar uma imagem do evento|Alta|
-|RF-04|O site deve apresentar informações sobre horário de início e término, valor, local e contato oficial|Alta|
-|RF-05|O site deve permitir o usuário salvar seus eventos, shows e festas favoritos|Média|
+|RF-02|O site deve apresentar informações sobre horário de início e término, valor, local e contato oficial|Alta|
+|RF-03|O site deve apresentar os eventos salvos como favoritos pelo usuário |Alta|
+|RF-04|O site deve apresentar informações sobre o site |Alta|
+|RF-05|O site deve permitir filtrar os eventos, shows e festas conforme o interesse do usuário (cidades / tipos de público / tipos de eventos, shows e festas)|Alta|
+|RF-06|O site deve permitir que o usuário alterar entre imagens do evento |Média|
+|RF-07|O site deve permitir que o usuário salve seus eventos favoritos |Média|
+|RF-08|O site deve possuir barra de navegação superior horizontal |Média|
 
 ### Requisitos não Funcionais
 

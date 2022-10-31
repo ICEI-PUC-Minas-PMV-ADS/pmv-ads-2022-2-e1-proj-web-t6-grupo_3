@@ -1,15 +1,66 @@
 # Programação de Funcionalidades
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="4-Metodologia.md"> Metodologia</a>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="5-Arquitetura da Solução.md"> Arquitetura da Solução</a>
+Nesta seção são apresentadas as telas desenvolvidas para cada uma das funcionalidades do sistema.
 
-Implementação do sistema descritas por meio dos requisitos funcionais e/ou não funcionais. Deve relacionar os requisitos atendidos os artefatos criados (código fonte) além das estruturas de dados utilizadas e as instruções para acesso e verificação da implementação que deve estar funcional no ambiente de hospedagem.
+## Página Inicial (RF-01, RF-02, RF-05, RF-07 e RF-08)
 
-Para cada requisito funcional, pode ser entregue um artefato desse tipo
+A página inicial do site apresenta eventos de destaque nos cards.
 
-> **Links Úteis**:
->
-> - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
-> - [JSON Tutorial](https://www.w3resource.com/JSON)
-> - [JSON Data Set Sample](https://opensource.adobe.com/Spry/samples/data_region/JSONDataSetSample.html)
-> - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
-> - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
+### Requisitos atendidos
+
+-
+-
+-
+-
+
+### Artefatos da Funcionalidade
+
+- index.html
+- style.css
+- logo.vsg
+
+## Eventos (RF-02, RF-06, RF-07 e RF-08)
+
+A página “Evento” permite ao usuário visualizar e se informar sobre o evento selecionado ou filtrado pelo usuário na página inicial.
+
+### Requisitos atendidos
+
+- RF-02
+
+### Artefatos da Funcionalidade
+
+- evento.html
+- styleEvento.css
+- logo.vsg
+
+## Favoritos (RF-02, RF-03, RF-07 e RF-08)
+
+A página “Favoritos” permite ao usuário visualizar e selecionar eventos marcados como favoritos.
+
+### Requisitos atendidos
+
+-
+-
+-
+-
+
+### Artefatos da Funcionalidade
+
+- favoritos.html
+- styleFavoritos.css
+- logo.vsg
+
+## Sobre (RF-04 e RF-08)
+
+A página “Sobre” permite ao usuário visualizar o propósito e informações gerais do site.
+
+### Requisitos atendidos
+
+-
+-
+
+### Artefatos da Funcionalidade
+
+- sobre.html
+- styleSobre.css
+- logo.vsg

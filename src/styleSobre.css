@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #05e0e0 16.62%, #031eb6 85.61%);
+}
+
+/*======= Code antigo ========*/
+/*.cabecalho-menu
+ {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
+    padding: 10px;
+    gap: 25px;
+    font-family: 'Sarala', sans-serif;
+    font-size: 20px;
+
+}
+.navbar 
+{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}*/
+
+.cabecalho {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.logo {
+    margin: 8px;
+    width: 50px;
+}
+
+.lista_menu {
+    margin: 8px;
+    display: flex;
+}
+
+.lista_menu li {
+    font-family: Visby;
+    list-style: none;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.45) 37.35%, rgba(0, 0, 0, 0) 54.71%), url(img/sobreFestaFundo.png);
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: center 65%;
+
+
+
+
+}
+
+.tituloPrincipal {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 40px;
+    color: white;
+
+}
+
+.linhaDivisa {
+    height: 20px;
+}
+
+.subTitulo {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 25px;
+    color: white;
+}
+
+.banner1 {
+    padding: 200px;
+    display: flex;
+    background-image: url(https:source.unsplash.com/random/1920x1080);
+    justify-content: center;
+    background-repeat: no-repeat;
+}
+
+.fourdivision {
+    display: flex;
+    margin: 0px auto 0px;
+    flex-flow: row;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    align-items: baseline;
+    justify-content: center;
+}
+.bannersprincipais {
+    height: 300px;
+    margin: 0 10 10;
+    
+    
+}
+.bannersprincipais2 {
+    height: 300px;
+    margin: 0 10 10;
+    
+    
+}
+.banner {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 223px;
+}
+
+.rodape {
+    display: flex;
+    height: 50px;
+    background-color: #05e0e0;
+    justify-content: space-around;
+    font-size: 20px;
+}

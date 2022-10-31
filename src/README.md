@@ -6,9 +6,4 @@ O site em HTML/CSS/JS é um projeto estático, logo pode ser utilizado tanto em 
 
 ## Histórico de versões
 
-### [0.1.0] - 14/10/2022
-#### Adicionado
-- Adicionado rftm.html
-- Adicionado styles.css
-- Adicionado rftm.png
-- Renomeado rftm.html para evento_rftm.html
+### [0.0.0] - 01/08/2022

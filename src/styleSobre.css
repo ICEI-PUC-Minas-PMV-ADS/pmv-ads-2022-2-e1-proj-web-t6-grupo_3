@@ -110,18 +110,21 @@
     align-items: baseline;
     justify-content: center;
 }
+
 .bannersprincipais {
     height: 300px;
     margin: 0 10 10;
-    
-    
+
+
 }
+
 .bannersprincipais2 {
     height: 300px;
     margin: 0 10 10;
-    
-    
+
+
 }
+
 .banner {
     display: flex;
     align-items: center;

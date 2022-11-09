@@ -77,7 +77,7 @@ menu ul li:hover {
 /* IMAGEM */
 .imagemFundo {
     background-image: url("img/eventoRftm.png");
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
     filter: brightness(.2);
@@ -86,6 +86,7 @@ menu ul li:hover {
     position: absolute;
     z-index: -1;
     opacity: .9;
+    -webkit-mask-image: linear-gradient(to top, transparent 20%, rgb(255,255,255,1), rgb(255,255,255,1) )
 }
 
 #imagemEvento {
@@ -118,6 +119,4 @@ main a {
 /* RODAPE */
 footer {
     background: #4C576C;
-    width: 100%;
-    text-align: center;
 }

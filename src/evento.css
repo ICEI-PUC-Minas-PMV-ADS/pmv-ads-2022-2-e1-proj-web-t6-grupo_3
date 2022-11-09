@@ -5,9 +5,6 @@
     line-height: 1.5;
     text-align: justify;
     margin: 0px;
-    padding: 0px;
-    scroll-behavior: smooth;
-    box-sizing: border-box;
 }
 
 /* TEXTOS */
@@ -26,11 +23,6 @@ h3 {
     padding: 0px 12px 0px;
 }
 
-h4 {
-    font-size: 13px;
-    padding: 0px 12px 0px;
-}
-
 p {
     padding: 0px 12px;
 }
@@ -38,7 +30,6 @@ p {
 a {
     text-decoration: none;
 }
-
 
 /* CABECALHO */
 header {
@@ -50,7 +41,6 @@ header {
 menu ul li {
     display: block;
     float: right;
-    text-align: center;
     color: #FFF;
     padding: 16px;
     transition: .4s;
@@ -68,25 +58,19 @@ menu ul li:hover {
 }
 
 /* MAIN */
-/* main {
-    background: lightgray;
-    width: 80%;
-    margin: 0% 10%;
-} */
-
 /* IMAGEM */
 .imagemFundo {
-    background-image: url("img/eventoRftm.png");
+    background-image: url("img/eventoFrtm.png");
     background-position: top;
-    background-repeat: no-repeat;
     background-size: cover;
+    background-repeat: no-repeat;
     filter: brightness(.2);
     width: 100%;
     height: 100%;
     position: absolute;
     z-index: -1;
     opacity: .9;
-    -webkit-mask-image: linear-gradient(to top, transparent 20%, rgb(255,255,255,1), rgb(255,255,255,1) )
+    -webkit-mask-image: linear-gradient(to top, transparent 20%, rgb(255, 255, 255, 1), rgb(255, 255, 255, 1))
 }
 
 #imagemEvento {
@@ -102,19 +86,14 @@ main a {
 
 /* TEXTO */
 .tituloEvento {
-    margin-top: 10px;
-    width: 70%;
     margin: 0 15%;
     background: #F5F7F8;
 }
 
 .descricaoEvento {
-    margin-top: 10px;
-    width: 70%;
     margin: 0 15%;
     background: #F5F7F8;
 }
-
 
 /* RODAPE */
 footer {

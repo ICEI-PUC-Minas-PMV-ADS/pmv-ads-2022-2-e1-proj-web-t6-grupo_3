@@ -11,12 +11,12 @@ a{
 
 @font-face {
     font-family: Visby;
-    src: url(/src/Visby.ttf);
+    src: url(/fonts/Visby.ttf);
 }
 
 @font-face {
     font-family: Visby_Bold;
-    src: url(/src/Visby_Bold.ttf);
+    src: url(/fonts/Visby_Bold.ttf);
 }
 
 /* CONTAINER CABECALHO*/

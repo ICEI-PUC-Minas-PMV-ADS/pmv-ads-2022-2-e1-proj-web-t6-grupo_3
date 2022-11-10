@@ -7,209 +7,105 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página Inicial</title>
+    <link rel="stylesheet" type="text/css" href="/lightslider.css">
+    <script type="text/javascript" src="/jquery.js"></script>
+    <script type="text/javascript" src="/lightslider.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 </head>
 
 <body>
     <script type="text/javascript" src="/script.js"></script>
     <!-- Menu -->
+
     <div class="cabecalho">
+        <img src="/src/logo.svg" class="logo">
+        <div class="navbar">
+            <ul class="lista_menu">
+                <li class="nome_lista">SOBRE</li>
+                <li class="nome_lista">EVENTOS</li>
+                <li><a href="google.com" class="nome_lista">FAVORITOS</li></a>
+                <li class="select">INICIO</li>
+            </ul>
+        </div>
+    </div>
 
+    
 
-        <div class="cabecalho">
-            <img src="/src/logo.svg" class="logo">
-            <div class="navbar">
-                <ul class="lista_menu">
-                    <li> <a href="/src/sobre.html" class="nome_lista">SOBRE</li></a>
-                    <li> <a href="/src/evento.html" class="nome_lista">EVENTOS</li></a>
-                    <li> <a href="/src/favoritos.html" class="nome_lista">FAVORITOS</li></a>
-                    <li class="select">INICIO</li>
-                </ul>
+    <!-- Conteudo -->
+
+    <div class="conteudo">
+
+        <!-- Destaques -->
+        <div class="container">
+             <div id="titulo_evento">     
+                Confira nossos destaques
+             </div>
+                        
+                        
+                            <a id="destaques" href="youtube.com">
+                        
+                                 <div id="fotoEvento">
+                                 </div>
+                                 <div id="textoEvento">
+                                    <div id="dataEvento">
+                                        SAB, 12 NOV • 22:00
+                                    </div>
+                                    <div id="tituloBox">
+                                        Festival Rock the Mountain 2022
+                                    </div>
+                                    <div id="localEvento">
+                                        A 7ª edição do Rock the Mountain Festival acontecerá nos dias 05, 06, 12 e 13 de novembro 2022! Você está comprando ingresso para o 2º final de semana
+
+#HitTheRoad para Itaipava, na charmosa serra fluminense!
+                                    </div>
+                                 </div>
+                                </a>
+                       
+                    
+         </div>
+
+        <!-- Filtro -->
+        <div class="filter">
+            <div class="imgtxt">
+            <div id="imgFiltro">
+                <img src="img/index_ftfiltro.svg">
             </div>
+            <div id="txtFiltro">
+                Procurando um happyhour?
+                <div id="discFiltro">
+                    Use o filtro para selecionar sua região e se divertir.
+                </div>
+            </div>
+             </div>
+            
+            <ul class="location">
+                <li id="iconlocation">
+                    <img src="img/icon_location.png">
+                </li>
+                <li id="txtlocation">
+                    Escolha um local
+                </li>
+                <li id="dropdownlocation">
+                    <img src="img/ic-dropdown.svg">
+                </li>
+            </ul>
+
+         </div>
+
+
+
+        <!-- Linha Separação -->
+        <div id="linha">
         </div>
 
 
-
-        <!-- Conteudo -->
-
-        <div class="conteudo">
-
-            <!-- Destaques -->
-            <div class="container">
-                <div id="titulo_evento">
-                    Confira nossos destaques
-                </div>
-
-
-                <a id="destaques" href="youtube.com">
-
-                    <div id="fotoEvento">
-                    </div>
-                    <div id="textoEvento">
-                        <div id="dataEvento">
-                            SAB, 12 NOV • 22:00
-                        </div>
-                        <div id="tituloBox">
-                            Festival Rock the Mountain 2022
-                        </div>
-                        <div id="localEvento">
-                            A 7ª edição do Rock the Mountain Festival acontecerá nos dias 05, 06, 12 e 13 de novembro
-                            2022! Você está comprando ingresso para o 2º final de semana
-
-                            #HitTheRoad para Itaipava, na charmosa serra fluminense!
-                        </div>
-                    </div>
-                </a>
-
-
-            </div>
-
-            <!-- Filtro -->
-            <div class="filter">
-                <div class="imgtxt">
-                    <div id="imgFiltro">
-                        <img src="/fotofiltro.svg">
-                    </div>
-                    <div id="txtFiltro">
-                        Procurando um happyhour?
-                        <div id="discFiltro">
-                            Use o filtro para selecionar sua região e se divertir.
-                        </div>
-                    </div>
-                </div>
-                =======
-                <header class="menu_inicio">
-                    <img src="/src/img/logo.svg" class="logo">
-                    <ul class="menu">
-                        <li class="item_menu">Sobre</li>
-                        <li class="item_menu">Favoritos</li>
-                        <li class="item_menu"><a href="evento.html">Evento</a></li>
-                        <li class="item_select">Menu Iniciar</li>
-                        >>>>>>> d38ab6178bbf7c69be737ec0291e3c2b22519b01
-
-                        <ul class="location">
-                            <li id="iconlocation">
-                                <img src="/icon_location.png">
-                            </li>
-                            <li id="txtlocation">
-                                Escolha um local
-                            </li>
-                            <li id="dropdownlocation">
-                                <img src="/ic-dropdown.svg">
-                            </li>
-                        </ul>
-
-            </div>
-
-
-
-            <!-- Linha Separação -->
-            <div id="linha">
-            </div>
-
-
-            <!-- Container de Cards -->
+        <!-- Container de Cards -->
             <ul class="container_card">
 
-                <li>
-                    <div class="card">
-                        <div class="img_card">
-                            <img src="/evtAlto">
-                        </div>
-                        <div class="data_card">
-                            31 dez - 2022 • 21:00
-                        </div>
-                        <div class="title_card">
-                            Réveillon do Alto 2023
-                        </div>
-                        <div class="disc_card">
-                            Depois de um ano cheio de abraços, reencontros e muitos de desafios... a esperança toma
-                            conta para que 2023 venha cheio de boas energias para conquistarmos juntos novos sonhos!!...
-                        </div>
-                    </div>
-        </div>
-
-        <header class="menu_inicio">
-            <img src="/src/img/logo.svg" class="logo">
-            <ul class="menu">
-                <li class="item_menu">Sobre</li>
-                <li class="item_menu">Favoritos</li>
-                <li class="item_menu"><a href="evento.html">Evento</a></li>
-                <li class="item_select">Menu Iniciar</li>
-
-
-                <ul class="location">
-                    <li id="iconlocation">
-                        <img src="/icon_location.png">
-                    </li>
-
                     <li>
                         <div class="card">
                             <div class="img_card">
-                                <img src="/evtMeca">
-                            </div>
-                            <div class="data_card">
-                                31 dez - 2022 • 21:00
-                            </div>
-                            <div class="title_card">
-                                Réveillon Amadeus
-                            </div>
-                            <div class="disc_card">
-                                Uma festa que eleva a percepção sensorial dos convidados, sempre em um ambiente lúdico e
-                                sofisticado. Já teve edições em Gramado, Vitória, São Paulo, Balneário Camboriú, Porto
-                                Alegre e agora...
-
-                            </div>
-                        </div>
-                    </li>
-
-                    <li>
-                        <div class="card">
-                            <div class="img_card">
-                                <img src="/evtLove">
-                            </div>
-                            <div class="data_card">
-                                17 dez - 2022 • 16:00
-                            </div>
-                            <div class="title_card">
-                                Love Sessions
-                            </div>
-                            <div class="disc_card">
-                                Com dois palcos, o Love Sessions conseguiu demonstrar a essência da cena nacional com
-                                sua
-                                variedade de atrações. Demonstrou organização, atenção e muita emoção nas mais de 16
-                                horas
-                                de pura música...
-                            </div>
-                        </div>
-                    </li>
-
-                    <li>
-                        <div class="card">
-                            <div class="img_card">
-                                <img src="/evtRock">
-                            </div>
-                            <div class="data_card">
-                                12 nov - 2022 • 16:00
-                            </div>
-                            <div class="title_card">
-                                Festival Rootstock Brasil 2022
-                            </div>
-                            <div class="disc_card">
-                                Foram anos de história pra chegar até aqui e conseguir apresentar a maior edição de
-                                todos os
-                                tempos do Festival Rootstock Brasil, em comemoração aos nossos 20 anos de vida! Viva o
-                                Forró!...
-                            </div>
-                        </div>
-                    </li>
-
-
-
-
-                    <li>
-                        <div class="card">
-                            <div class="img_card">
-                                <img src="img/evtRev.png">
+                                <img src="img/evtAlto.png">
                             </div>
                             <div class="data_card">
                                 31 dez - 2022 • 21:00
@@ -218,9 +114,7 @@
                                 Réveillon do Alto 2023
                             </div>
                             <div class="disc_card">
-                                Depois de um ano cheio de abraços, reencontros e muitos de desafios... a esperança toma
-                                conta para que 2023 venha cheio de boas energias para conquistarmos juntos novos
-                                sonhos!!...
+                                Depois de um ano cheio de abraços, reencontros e muitos de desafios... a esperança toma conta para que 2023 venha cheio de boas energias para conquistarmos juntos novos sonhos!!...
                             </div>
                         </div>
                     </li>
@@ -228,7 +122,7 @@
                     <li>
                         <div class="card">
                             <div class="img_card">
-                                <img src="img/evtMeca.png">
+                                <img src="img/evtMeca.jpg">
                             </div>
                             <div class="data_card">
                                 31 dez - 2022 • 21:00
@@ -237,9 +131,7 @@
                                 Réveillon Amadeus
                             </div>
                             <div class="disc_card">
-                                Uma festa que eleva a percepção sensorial dos convidados, sempre em um ambiente lúdico e
-                                sofisticado. Já teve edições em Gramado, Vitória, São Paulo, Balneário Camboriú, Porto
-                                Alegre e agora...
+                                Uma festa que eleva a percepção sensorial dos convidados, sempre em um ambiente lúdico e sofisticado. Já teve edições em Gramado, Vitória, São Paulo, Balneário Camboriú, Porto Alegre e agora...
 
                             </div>
                         </div>
@@ -257,9 +149,7 @@
                                 Love Sessions
                             </div>
                             <div class="disc_card">
-                                Com dois palcos, o Love Sessions conseguiu demonstrar a essência da cena nacional com
-                                sua variedade de atrações. Demonstrou organização, atenção e muita emoção nas mais de 16
-                                horas de pura música...
+                                Com dois palcos, o Love Sessions conseguiu demonstrar a essência da cena nacional com sua variedade de atrações. Demonstrou organização, atenção e muita emoção nas mais de 16 horas de pura música... 
                             </div>
                         </div>
                     </li>
@@ -276,17 +166,17 @@
                                 Festival Rootstock Brasil 2022
                             </div>
                             <div class="disc_card">
-                                Foram anos de história pra chegar até aqui e conseguir apresentar a maior edição de
-                                todos os tempos do Festival Rootstock Brasil, em comemoração aos nossos 20 anos de vida!
-                                Viva o Forró!...
+                                Foram anos de história pra chegar até aqui e conseguir apresentar a maior edição de todos os tempos do Festival Rootstock Brasil, em comemoração aos nossos 20 anos de vida! Viva o Forró!... 
                             </div>
                         </div>
                     </li>
 
-
-
-
-                </ul>
+            
+            
+            
+            
+            
+            </ul>
 
 
 

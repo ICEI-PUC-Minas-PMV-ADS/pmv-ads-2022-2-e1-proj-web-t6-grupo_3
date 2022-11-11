@@ -11,7 +11,5 @@ function exibirDados() {
 
 fetch("eventos.json")
     .then((response) => response.json())
-    .then((json) => {
-        eventos = json
-    })
+    .then((json) => eventos = json)
     .then(() => exibirDados())

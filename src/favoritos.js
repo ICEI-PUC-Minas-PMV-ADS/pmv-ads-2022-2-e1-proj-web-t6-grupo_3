@@ -7,9 +7,14 @@ function exibirDados() {
     localEvento.innerHTML = eventos[0].local;
 }
 
+
 fetch("eventos.json")
     .then((response) => response.json())
     .then((json) => eventos = json)
     .then(() => exibirDados())
+
+
+
+
 
 

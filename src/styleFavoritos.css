@@ -40,7 +40,7 @@ menu ul li:hover {
 /*Formatação das divs*/
 
 .container {
-	margin: 0px auto 0px;
+	margin: 1% auto 0px;
 	display: flex;
 	flex-flow: row;
 	flex-wrap: wrap;
@@ -74,13 +74,13 @@ div:hover {
 h2 {
 	width: 100%;
 	margin: 0px;
-	padding: 0 10px 10px;
+	padding: 0px 10px 5px 10px;
 	font-size: 20px;
 }
 
 #dataHora {
 	margin: 0px;
-	padding: 0 10px 10px ;
+	padding: 0px 10px 5px 10px;
 	font-size: 11px;
 	font-family: sans-serif;
 	color: rgb(0, 151, 255);

@@ -46,11 +46,14 @@ menu ul li:hover {
 	flex-wrap: wrap;
 }
 
-.shows {
+#imagemEvento {
 	width: 100%;
 	height: 134px;
+	padding: 0px;
+	margin: 0px;
 	opacity: 1;
 	border-radius: 20px 20px 0px 0px;
+	
 }
 
 div {
@@ -69,18 +72,29 @@ div:hover {
 
 /* Formatação do texto */
 h2 {
-	text-align: justify;
 	width: 100%;
-	margin: 0px 0px 0px 10px;
+	margin: 0px;
+	padding: 0 10px 10px;
 	font-size: 20px;
 }
 
-p {
-	text-align: justify;
-	width: 100%;
-	margin: 15px 0px 0px 20px;
-	font-size: 15px;
+#dataHora {
+	margin: 0px;
+	padding: 0 10px 10px ;
+	font-size: 11px;
 	font-family: sans-serif;
+	color: rgb(0, 151, 255);
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+#localEvento {
+	margin: 0px;
+	padding: 10px;
+	padding-top: 0px;
+	font-size: 13px;
+	font-family: sans-serif;
+	color: rgb(76, 87, 108);
 }
 
 /*Media Query*/

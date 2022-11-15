@@ -39,7 +39,7 @@ menu ul li:hover {
 
 /*Formatação das divs*/
 
-.container {
+#container {
 	margin: 1% auto 0px;
 	display: flex;
 	flex-flow: row;

@@ -57,6 +57,7 @@ menu ul li:hover {
 }
 
 #cards {
+	width: 300px;
 	margin: 0 10px 10px;
 	background-color: #d9d9d9;
 	border-radius: 20px;

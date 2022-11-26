@@ -20,7 +20,7 @@ Comente sobre as ferramentas de testes utilizadas.
 
 Os testes funcionais a serem realizados no aplicativo são descritos a seguir:
 
-Cenário de teste 1: O usuário se interessa por um evento e quer obter mais informações sobre este. Para isso, o usuário acessa a página de eventos. O grupo-alvo deste cenário contempla todos os usuários do site. O cenário será testado no CT-01.
+Cenário de teste 01: O usuário se interessa por um evento e quer obter mais informações sobre este. Para isso, o usuário acessa a página de eventos. O grupo-alvo deste cenário contempla todos os usuários do site. O cenário será testado no CT-01.
 
 |Caso de Testes|CT-01 - Apresentação dos eventos na página "Eventos"|
 |-|:-|

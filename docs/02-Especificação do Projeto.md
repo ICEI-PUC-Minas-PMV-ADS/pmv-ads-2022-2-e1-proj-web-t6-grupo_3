@@ -38,13 +38,12 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 |ID| Descrição do Requisito|Prioridade|
 |-|-|-|
 |RF-01|O site deve apresentar os principais eventos, shows e festas regionais na página principal|Alta|
-|RF-02|O site deve apresentar informações sobre horário de início e término, valor, local e contato oficial|Alta|
-|RF-03|O site deve apresentar os eventos salvos como favoritos pelo usuário |Alta|
-|RF-04|O site deve apresentar informações sobre o site |Alta|
-|RF-05|O site deve permitir filtrar os eventos, shows e festas conforme o interesse do usuário (cidades / tipos de público / tipos de eventos, shows e festas)|Alta|
-|RF-06|O site deve permitir que o usuário alterar entre imagens do evento |Média|
-|RF-07|O site deve permitir que o usuário salve seus eventos favoritos |Média|
-|RF-08|O site deve possuir barra de navegação superior horizontal |Média|
+|RF-02|O site deve apresentar informações sobre horário de início e término, flyer, local e informações do organizador|Alta|
+|RF-03|O site deve apresentar informações sobre o site |Alta|
+|RF-04|O site deve permitir filtrar os eventos, shows e festas conforme o interesse do usuário (cidades / tipos de público / tipos de eventos, shows e festas)|Alta|
+|RF-05|O site deve permitir que o usuário alterar entre imagens do evento |Média|
+|RF-06|O site deve apresentar uma página de favoritos com cards que apresentam informações resumidas do evento. |Média|
+|RF-07|O site deve possuir barra de navegação superior horizontal |Média|
 
 ### Requisitos não Funcionais
 

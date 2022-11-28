@@ -8,8 +8,5 @@ Cenário de teste 01: O usuário se interessa por um evento e quer obter mais in
 |-|:-|
 |Requisitos Associados|RF-02 - O site deve apresentar informações sobre horário de início e término, flyer, local e informações do organizador|
 |Objetivo do Teste|Verificar se a página de eventos é capaz de carregar todos os eventos do arquivo JSON|
-|Passos|No arquivo JSON, cada índice está associado a um evento a ser exibido na página "Eventos".
-1. Abrir o arquivo JSON no VS Code
-2. Abrir o arquivo JavaScript da página Eventos no VS Code
-3. Realizar o teste amostral de 3 índices (1, 2 e 4) no código JavaScript |
+|Passos|No arquivo JSON, cada índice está associado a um evento a ser exibido na página "Eventos".  1. Abrir o arquivo JSON no VS Code  2. Abrir o arquivo JavaScript da página Eventos no VS Code  3. Realizar o teste amostral de 3 índices (1, 2 e 4) no código JavaScript |
 |Critérios de Êxito|A cada iteração realizada com um índice diferente, a página deve carregar o evento correspondente ao índice testado.|

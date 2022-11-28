@@ -9,9 +9,9 @@ function exibirDados() {
       textoHTML += `<p id="dataHora">${eventos[i].data}</p>`;
       textoHTML += `<h2 id="nomeEvento">${eventos[i].nome}</h2>`;
       textoHTML += `<p id="localEvento">${eventos[i].local}</p>`;
-      textoHTML += `<div id=button>`;
+      /* textoHTML += `<div id=button>`;
       textoHTML += `<input type="button" id="btRemover" value="Remover">`;
-      textoHTML += `</div id=button>`;
+      textoHTML += `</div id=button>`; */
       textoHTML += `</div>`;
     }
   }

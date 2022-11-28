@@ -1,12 +1,13 @@
 let eventos;
 
 function exibirDados() {
-    title.innerHTML = eventos[0].nome;
-    tituloEvento.innerHTML = eventos[0].nome;
-    imagemEvento1.innerHTML = eventos[0].imagem;
-    dataEvento.innerHTML = eventos[0].data;
-    localEvento.innerHTML = eventos[0].local;
-    descricaoEvento.innerHTML = eventos[0].descricao;
+    title.innerHTML = eventos[eventos[0].x].nome;
+    tituloEvento.innerHTML = eventos[eventos[0].x].nome;
+    imagemEventoId.innerHTML = eventos[eventos[0].x].imagem;
+    document.getElementById("imagemFundo").style.backgroundImage = eventos[eventos[0].x].imagemFundo;
+    dataEvento.innerHTML = eventos[eventos[0].x].data;
+    localEvento.innerHTML = eventos[eventos[0].x].local;
+    descricaoEvento.innerHTML = eventos[eventos[0].x].descricao;
 }
 
 fetch("eventos.json")

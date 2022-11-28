@@ -58,8 +58,7 @@ menu ul li:hover {
 
 /* MAIN */
 /* IMAGEM */
-.imagemFundo {
-    background-image: url("img/eventoFrtm.png");
+#imagemFundo {
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
